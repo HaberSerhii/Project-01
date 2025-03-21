@@ -1,0 +1,79 @@
+body {
+  margin: 150px;
+}
+p,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.spa-container {
+  display: grid;
+  width: 1470px;
+  height: 864px;
+  grid-template-columns: 1fr 1fr;
+  background-color: #f6f6f1;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.28);
+  border-radius: 20px;
+}
+
+.spa-container-information {
+  margin: 200px 85px;
+  display: grid;
+  gap: 25px;
+}
+
+.spa-information-uppertitle {
+  font-family: "Vidaloka", serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #313131;
+}
+.spa-information-title {
+  font-family: "Vidaloka", serif;
+  font-weight: 400;
+  font-size: 64px;
+  color: #091605;
+}
+.spa-information-description {
+  font-family: "Work Sans", serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #091605;
+  margin-bottom: 50px;
+}
+.spa-information-buttons {
+  width: 380px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+}
+.spa-button-book-now {
+  width: 165px;
+  height: 42px;
+  color: #f5f5f5;
+  background-color: #708817;
+  border: none;
+  border-radius: 30px;
+  font-family: "Work Sans", serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+.spa-button-explore {
+  width: 165px;
+  height: 42px;
+  color: #708817;
+  background-color: #f4fdf9;
+  border: 1px solid #708817;
+  border-radius: 30px;
+  font-family: "Work Sans", serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+.spa-container-bgimg {
+  background-image: url(./assets/SPA-main.webp);
+  background-position: center;
+  background-size: cover;
+}
